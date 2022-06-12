@@ -1,0 +1,15 @@
+﻿@model ProductModel[] 
+
+
+@{
+    ViewData["Title"] = "Добавление продуктов";
+}
+
+@{
+   <p>Количество продуктов - @TreadSafeCollection.products.Count</p>
+}
+
+@foreach (var type in TreadSafeCollection.products)
+{
+    <div> @type.Id  @type.Name  @type.Description @type.Type </div>
+}
