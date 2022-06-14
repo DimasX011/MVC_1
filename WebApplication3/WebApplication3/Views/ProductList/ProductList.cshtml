@@ -1,0 +1,15 @@
+﻿@model ProductsCatalog 
+
+
+@{
+    ViewData["Title"] = "Добавление продуктов";
+}
+
+@{
+   <p>Количество продуктов - @Model.GeGetProductsConc.forAr.Count</p>
+}
+
+@foreach (var type in Model.GeGetProductsConc.forAr)
+{
+    <div> @type.Id  @type.Name  @type.Description @type.Type </div>
+}
