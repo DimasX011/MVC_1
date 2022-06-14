@@ -6,6 +6,7 @@ namespace WebApplication3.Controllers
 {
     public class ProductController : Controller
     {
+       
       
         public static TreadSafeCollection collection = new();
         
@@ -20,7 +21,6 @@ namespace WebApplication3.Controllers
         public IActionResult Products([FromForm]ProductModel exemp)
         {
              collection.Add(exemp);
-             collection.ToListConvert();
              return View(collection.GetAll());
         }
        

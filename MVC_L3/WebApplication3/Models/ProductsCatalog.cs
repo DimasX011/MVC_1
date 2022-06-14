@@ -1,14 +1,20 @@
 ﻿using System.Collections.Concurrent;
+using WebApplication3;
     
 namespace WebApplication3.Models
 {
     public class ProductsCatalog
     {
-        public List<ProductModel> GetProducts { get; set; } = new();
-        
-        public ConcurrentList<ProductModel> GeGetProductsConc { get; set; } = new();
-        public ConcurrentBag<ProductModel> GetProductBag { get; set; } = new ();
-        
+        private static TreadSafeCollection GetProductBag { get; set; } = new ();
+        private static List<ProductModel> products { get; set; } = new();
+
+        public static List<ProductModel> ToConverter()
+        {
+            List<ProductModel>Somemodel  = new();
+            Somemodel = GetProductBag.ToListConvert();
+            return Somemodel;
+        }
+
         public static IEnumerable<ProductModel> GenerateProduct(int i)
         {
             for(int c = 0; c< i; c ++)

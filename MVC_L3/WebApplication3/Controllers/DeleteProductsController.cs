@@ -17,7 +17,6 @@ namespace WebApplication3.Controllers
         public IActionResult DeleteProducts([FromForm] ProductModel exemp)
         {
             collection.Remove(exemp);
-            collection.ToListConvert();
             return View(collection.GetAll());
         }
     }
