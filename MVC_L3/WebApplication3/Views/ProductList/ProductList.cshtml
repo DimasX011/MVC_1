@@ -1,0 +1,15 @@
+﻿@model ProductModel[] 
+
+
+@{
+    ViewData["Title"] = "Добавление продуктов";
+}
+
+@{
+   <p>Количество продуктов - @ProductsCatalog.ToConverter().Count</p>
+}
+
+@foreach (var type in ProductsCatalog.ToConverter())
+{
+    <div> @type.Id  @type.Name  @type.Description @type.Type </div>
+}
