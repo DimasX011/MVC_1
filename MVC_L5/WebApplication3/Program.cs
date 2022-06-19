@@ -4,7 +4,9 @@ using WebApplication3.Controllers;
 using WebApplication3.Interfaces;
 using WebApplication3.Models;
 using WebApplication3.Services;
-
+using Polly.Retry;
+using Polly;
+using Polly.Extensions.Http;
 
 Log.Logger = new LoggerConfiguration()
  .WriteTo.Console()
@@ -37,6 +39,7 @@ try
     builder.Services.Configure<ProductCatalogService>(builder.Configuration.GetSection("ProductCatalogService"));
     builder.Services.AddScoped<IEmailService, EmailService>();
     builder.Services.AddScoped<IProductCatalogService, ProductCatalogService>();
+    builder.Services.AddHttpClient<IEmailService, EmailService>().SetHandlerLifetime(TimeSpan.FromMinutes(5)).AddPolicyHandler(GetRetryPolicy());
 
     var app = builder.Build();
 
@@ -62,6 +65,14 @@ try
         pattern: "{controller=Home}/{action=Index}/{id?}");
 
     app.Run();
+
+    static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
+    {
+        return HttpPolicyExtensions.HandleTransientHttpError()
+            .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.NotFound)
+            .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2,
+                                                                        retryAttempt)));
+    }
 }
 catch (Exception ex)
 {
