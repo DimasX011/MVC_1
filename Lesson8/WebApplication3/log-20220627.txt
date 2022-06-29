@@ -1,0 +1,211 @@
+2022-06-27 16:01:57.810 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-27 16:01:58.006 +06:00 [INF] Now listening on: https://localhost:7265
+2022-06-27 16:01:58.007 +06:00 [INF] Now listening on: http://localhost:5265
+2022-06-27 16:01:58.010 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-27 16:01:58.011 +06:00 [INF] Hosting environment: Development
+2022-06-27 16:01:58.011 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\
+2022-06-27 16:01:58.670 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-06-27 16:01:58.691 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:01:58.709 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-06-27 16:01:58.717 +06:00 [INF] Executing ViewResult, running view Index.
+2022-06-27 16:01:58.786 +06:00 [INF] Executed ViewResult - view Index executed in 69.0821ms.
+2022-06-27 16:01:58.790 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 77.8779ms
+2022-06-27 16:01:58.792 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-06-27 16:01:58.792 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:01:58.792 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/css/site.css?v=ZJg29BfKMfPQ1nmIkdqg6iWhTGRNJx2HnD4FfdtVCcU - -
+2022-06-27 16:01:58.792 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/WebApplication3.styles.css?v=ZGGEhn2MguDBK-5bgdnNVss18nLlfJ3Do8sOMcqDNJo - -
+2022-06-27 16:01:58.793 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/lib/jquery/dist/jquery.min.js - -
+2022-06-27 16:01:58.793 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-06-27 16:01:58.793 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - -
+2022-06-27 16:01:58.801 +06:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\wwwroot\css\site.css'
+2022-06-27 16:01:58.801 +06:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\wwwroot\js\site.js'
+2022-06-27 16:01:58.801 +06:00 [INF] HTTP GET / responded 200 in 126.8308 ms
+2022-06-27 16:01:58.802 +06:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\wwwroot\lib\jquery\dist\jquery.min.js'
+2022-06-27 16:01:58.802 +06:00 [INF] Sending file. Request path: '/WebApplication3.styles.css'. Physical path: 'C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\obj\Debug\net6.0\scopedcss\bundle\WebApplication3.styles.css'
+2022-06-27 16:01:58.803 +06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2022-06-27 16:01:58.803 +06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2022-06-27 16:01:58.806 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - - - 200 226 application/javascript 13.1613ms
+2022-06-27 16:01:58.809 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 141.3645ms
+2022-06-27 16:01:58.810 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/WebApplication3.styles.css?v=ZGGEhn2MguDBK-5bgdnNVss18nLlfJ3Do8sOMcqDNJo - - - 200 1132 text/css 17.5185ms
+2022-06-27 16:01:58.811 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 18.4578ms
+2022-06-27 16:01:58.814 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 21.7550ms
+2022-06-27 16:01:58.816 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/css/site.css?v=ZJg29BfKMfPQ1nmIkdqg6iWhTGRNJx2HnD4FfdtVCcU - - - 200 177 text/css 23.3714ms
+2022-06-27 16:01:58.819 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 26.2166ms
+2022-06-27 16:02:49.241 +06:00 [INF] Application is shutting down...
+2022-06-27 16:02:49.258 +06:00 [INF] Shut down complete
+2022-06-27 16:03:34.162 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-27 16:03:34.240 +06:00 [INF] Now listening on: https://localhost:7265
+2022-06-27 16:03:34.241 +06:00 [INF] Now listening on: http://localhost:5265
+2022-06-27 16:03:34.244 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-27 16:03:34.244 +06:00 [INF] Hosting environment: Development
+2022-06-27 16:03:34.246 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\
+2022-06-27 16:03:34.773 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-06-27 16:03:34.792 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:03:34.809 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-06-27 16:03:34.817 +06:00 [INF] Executing ViewResult, running view Index.
+2022-06-27 16:03:34.863 +06:00 [INF] Executed ViewResult - view Index executed in 46.1175ms.
+2022-06-27 16:03:34.866 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 53.7313ms
+2022-06-27 16:03:34.868 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:03:34.871 +06:00 [INF] HTTP GET / responded 200 in 93.5176 ms
+2022-06-27 16:03:34.874 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 104.8237ms
+2022-06-27 16:03:38.877 +06:00 [INF] Application is shutting down...
+2022-06-27 16:03:38.892 +06:00 [INF] Shut down complete
+2022-06-27 16:12:43.105 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-27 16:12:43.129 +06:00 [FTL] Unhandled exception
+System.InvalidOperationException: A suitable constructor for type 'WebApplication3.Services.EmailService' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.<>c.<.cctor>b__7_0()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.<>c__DisplayClass13_0`2.<AddTypedClientCore>b__0(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Microsoft.AspNetCore.Builder.WebApplication.Run(String url)
+   at Program.<Main>$(String[] args) in C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\Program.cs:line 69
+2022-06-27 16:12:43.159 +06:00 [INF] Shut down complete
+2022-06-27 16:15:47.673 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-27 16:15:47.753 +06:00 [INF] Now listening on: https://localhost:7265
+2022-06-27 16:15:47.755 +06:00 [INF] Now listening on: http://localhost:5265
+2022-06-27 16:15:47.757 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-27 16:15:47.758 +06:00 [INF] Hosting environment: Development
+2022-06-27 16:15:47.759 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\
+2022-06-27 16:15:48.371 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-06-27 16:15:48.391 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:15:48.410 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-06-27 16:15:48.418 +06:00 [INF] Executing ViewResult, running view Index.
+2022-06-27 16:15:48.464 +06:00 [INF] Executed ViewResult - view Index executed in 46.1631ms.
+2022-06-27 16:15:48.467 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 54.1151ms
+2022-06-27 16:15:48.469 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:15:48.472 +06:00 [INF] HTTP GET / responded 200 in 95.8668 ms
+2022-06-27 16:15:48.479 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 109.8089ms
+2022-06-27 16:16:04.458 +06:00 [INF] Application is shutting down...
+2022-06-27 16:16:04.476 +06:00 [INF] Shut down complete
+2022-06-27 16:22:46.787 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-27 16:22:46.865 +06:00 [INF] Now listening on: https://localhost:7265
+2022-06-27 16:22:46.866 +06:00 [INF] Now listening on: http://localhost:5265
+2022-06-27 16:22:46.869 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-27 16:22:46.870 +06:00 [INF] Hosting environment: Development
+2022-06-27 16:22:46.871 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\
+2022-06-27 16:22:47.403 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-06-27 16:22:47.421 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:22:47.437 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-06-27 16:22:47.445 +06:00 [INF] Executing ViewResult, running view Index.
+2022-06-27 16:22:47.489 +06:00 [INF] Executed ViewResult - view Index executed in 44.7917ms.
+2022-06-27 16:22:47.493 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 53.3365ms
+2022-06-27 16:22:47.495 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:22:47.498 +06:00 [INF] HTTP GET / responded 200 in 89.9098 ms
+2022-06-27 16:22:47.502 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 100.9208ms
+2022-06-27 16:25:03.713 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-06-27 16:25:03.716 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-27 16:25:03.718 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-06-27 16:25:03.724 +06:00 [INF] Executing ViewResult, running view Products.
+2022-06-27 16:25:03.734 +06:00 [INF] Executed ViewResult - view Products executed in 10.5037ms.
+2022-06-27 16:25:03.735 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 13.8424ms
+2022-06-27 16:25:03.737 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-27 16:25:03.739 +06:00 [INF] HTTP GET /Product/Products responded 200 in 23.4219 ms
+2022-06-27 16:25:03.741 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - text/html;+charset=utf-8 27.4254ms
+2022-06-27 16:25:10.788 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7265/Product/Products application/x-www-form-urlencoded 275
+2022-06-27 16:25:10.791 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-27 16:25:10.803 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products(WebApplication3.Models.ProductModel) on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-06-27 16:25:10.817 +06:00 [INF] Executing ViewResult, running view Products.
+2022-06-27 16:25:10.819 +06:00 [INF] Executed ViewResult - view Products executed in 2.1355ms.
+2022-06-27 16:25:10.821 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 15.6093ms
+2022-06-27 16:25:10.823 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-27 16:25:10.824 +06:00 [INF] HTTP POST /Product/Products responded 200 in 34.3300 ms
+2022-06-27 16:25:10.826 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7265/Product/Products application/x-www-form-urlencoded 275 - 200 - text/html;+charset=utf-8 37.7180ms
+2022-06-27 16:25:28.756 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ProductList/ProductList - -
+2022-06-27 16:25:28.758 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-06-27 16:25:28.760 +06:00 [INF] Route matched with {action = "ProductList", controller = "ProductList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductList() on controller WebApplication3.Controllers.ProductListController (WebApplication3).
+2022-06-27 16:25:28.764 +06:00 [INF] Executing ViewResult, running view ProductList.
+2022-06-27 16:25:28.767 +06:00 [INF] Executed ViewResult - view ProductList executed in 3.5653ms.
+2022-06-27 16:25:28.769 +06:00 [INF] Executed action WebApplication3.Controllers.ProductListController.ProductList (WebApplication3) in 5.3898ms
+2022-06-27 16:25:28.771 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-06-27 16:25:28.773 +06:00 [INF] HTTP GET /ProductList/ProductList responded 200 in 15.0110 ms
+2022-06-27 16:25:28.775 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ProductList/ProductList - - - 200 - text/html;+charset=utf-8 19.0179ms
+2022-06-27 16:25:29.861 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-06-27 16:25:29.863 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-27 16:25:29.865 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-06-27 16:25:29.867 +06:00 [INF] Executing ViewResult, running view Products.
+2022-06-27 16:25:29.869 +06:00 [INF] Executed ViewResult - view Products executed in 1.8609ms.
+2022-06-27 16:25:29.871 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 3.9909ms
+2022-06-27 16:25:29.874 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-27 16:25:29.876 +06:00 [INF] HTTP GET /Product/Products responded 200 in 12.2598 ms
+2022-06-27 16:25:29.877 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - text/html;+charset=utf-8 16.2623ms
+2022-06-27 16:25:30.577 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ProductList/ProductList - -
+2022-06-27 16:25:30.579 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-06-27 16:25:30.580 +06:00 [INF] Route matched with {action = "ProductList", controller = "ProductList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductList() on controller WebApplication3.Controllers.ProductListController (WebApplication3).
+2022-06-27 16:25:30.583 +06:00 [INF] Executing ViewResult, running view ProductList.
+2022-06-27 16:25:30.585 +06:00 [INF] Executed ViewResult - view ProductList executed in 1.6139ms.
+2022-06-27 16:25:30.586 +06:00 [INF] Executed action WebApplication3.Controllers.ProductListController.ProductList (WebApplication3) in 3.0359ms
+2022-06-27 16:25:30.589 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-06-27 16:25:30.590 +06:00 [INF] HTTP GET /ProductList/ProductList responded 200 in 11.4855 ms
+2022-06-27 16:25:30.592 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ProductList/ProductList - - - 200 - text/html;+charset=utf-8 14.9563ms
+2022-06-27 16:25:31.075 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/DeleteProducts/DeleteProducts - -
+2022-06-27 16:25:31.077 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.DeleteProductsController.DeleteProducts (WebApplication3)'
+2022-06-27 16:25:31.079 +06:00 [INF] Route matched with {action = "DeleteProducts", controller = "DeleteProducts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteProducts() on controller WebApplication3.Controllers.DeleteProductsController (WebApplication3).
+2022-06-27 16:25:31.083 +06:00 [INF] Executing ViewResult, running view DeleteProducts.
+2022-06-27 16:25:31.086 +06:00 [INF] Executed ViewResult - view DeleteProducts executed in 3.293ms.
+2022-06-27 16:25:31.087 +06:00 [INF] Executed action WebApplication3.Controllers.DeleteProductsController.DeleteProducts (WebApplication3) in 5.1274ms
+2022-06-27 16:25:31.089 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.DeleteProductsController.DeleteProducts (WebApplication3)'
+2022-06-27 16:25:31.091 +06:00 [INF] HTTP GET /DeleteProducts/DeleteProducts responded 200 in 14.4504 ms
+2022-06-27 16:25:31.093 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/DeleteProducts/DeleteProducts - - - 200 - text/html;+charset=utf-8 18.7263ms
+2022-06-27 16:26:26.486 +06:00 [INF] Application is shutting down...
+2022-06-27 16:26:26.501 +06:00 [INF] Shut down complete
+2022-06-27 16:26:44.799 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-27 16:26:44.977 +06:00 [INF] Now listening on: https://localhost:7265
+2022-06-27 16:26:44.979 +06:00 [INF] Now listening on: http://localhost:5265
+2022-06-27 16:26:44.980 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-27 16:26:44.981 +06:00 [INF] Hosting environment: Development
+2022-06-27 16:26:44.982 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson7\WebApplication3\
+2022-06-27 16:26:45.242 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-06-27 16:26:45.260 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:26:45.284 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-06-27 16:26:45.293 +06:00 [INF] Executing ViewResult, running view Index.
+2022-06-27 16:26:45.349 +06:00 [INF] Executed ViewResult - view Index executed in 57.516ms.
+2022-06-27 16:26:45.352 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 65.6848ms
+2022-06-27 16:26:45.354 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-27 16:26:45.357 +06:00 [INF] HTTP GET / responded 200 in 110.2529 ms
+2022-06-27 16:26:45.362 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 121.5064ms
+2022-06-27 16:26:48.655 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ProductList/ProductList - -
+2022-06-27 16:26:48.658 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-06-27 16:26:48.660 +06:00 [INF] Route matched with {action = "ProductList", controller = "ProductList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductList() on controller WebApplication3.Controllers.ProductListController (WebApplication3).
+2022-06-27 16:26:48.665 +06:00 [INF] Executing ViewResult, running view ProductList.
+2022-06-27 16:26:48.670 +06:00 [INF] Executed ViewResult - view ProductList executed in 5.3316ms.
+2022-06-27 16:26:48.672 +06:00 [INF] Executed action WebApplication3.Controllers.ProductListController.ProductList (WebApplication3) in 8.7182ms
+2022-06-27 16:26:48.674 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-06-27 16:26:48.676 +06:00 [INF] HTTP GET /ProductList/ProductList responded 200 in 19.2945 ms
+2022-06-27 16:26:48.678 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ProductList/ProductList - - - 200 - text/html;+charset=utf-8 23.1456ms
+2022-06-27 16:26:49.276 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-06-27 16:26:49.278 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-27 16:26:49.280 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-06-27 16:26:49.284 +06:00 [INF] Executing ViewResult, running view Products.
+2022-06-27 16:26:49.295 +06:00 [INF] Executed ViewResult - view Products executed in 11.8641ms.
+2022-06-27 16:26:49.297 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 14.7544ms
+2022-06-27 16:26:49.298 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-27 16:26:49.301 +06:00 [INF] HTTP GET /Product/Products responded 200 in 23.3506 ms
+2022-06-27 16:26:49.306 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - text/html;+charset=utf-8 29.8462ms
+2022-06-27 16:26:55.188 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7265/Product/Products application/x-www-form-urlencoded 275
+2022-06-27 16:26:55.189 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-27 16:26:55.199 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products(WebApplication3.Models.ProductModel) on controller WebApplication3.Controllers.ProductController (WebApplication3).
