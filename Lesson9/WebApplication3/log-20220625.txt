@@ -1,0 +1,65 @@
+2022-06-25 12:07:49.308 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-25 12:07:49.552 +06:00 [INF] Now listening on: https://localhost:7265
+2022-06-25 12:07:49.554 +06:00 [INF] Now listening on: http://localhost:5265
+2022-06-25 12:07:49.556 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-25 12:07:49.557 +06:00 [INF] Hosting environment: Development
+2022-06-25 12:07:49.558 +06:00 [INF] Content root path: \\RYAZENKA\share\MVC_L7\WebApplication3\
+2022-06-25 12:07:50.250 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-06-25 12:07:50.273 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-25 12:07:50.297 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-06-25 12:07:50.308 +06:00 [INF] Executing ViewResult, running view Index.
+2022-06-25 12:07:50.402 +06:00 [INF] Executed ViewResult - view Index executed in 94.9631ms.
+2022-06-25 12:07:50.405 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 104.9008ms
+2022-06-25 12:07:50.407 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-06-25 12:07:50.407 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/css/site.css?v=ZJg29BfKMfPQ1nmIkdqg6iWhTGRNJx2HnD4FfdtVCcU - -
+2022-06-25 12:07:50.407 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/WebApplication3.styles.css?v=ZGGEhn2MguDBK-5bgdnNVss18nLlfJ3Do8sOMcqDNJo - -
+2022-06-25 12:07:50.407 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-06-25 12:07:50.407 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/lib/jquery/dist/jquery.min.js - -
+2022-06-25 12:07:50.407 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - -
+2022-06-25 12:07:50.407 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-06-25 12:07:50.414 +06:00 [INF] HTTP GET / responded 200 in 157.6871 ms
+2022-06-25 12:07:50.420 +06:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '\\RYAZENKA\share\MVC_L7\WebApplication3\wwwroot\css\site.css'
+2022-06-25 12:07:50.420 +06:00 [INF] Sending file. Request path: '/WebApplication3.styles.css'. Physical path: '\\RYAZENKA\share\MVC_L7\WebApplication3\obj\Debug\net6.0\scopedcss\bundle\WebApplication3.styles.css'
+2022-06-25 12:07:50.421 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 173.7204ms
+2022-06-25 12:07:50.422 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/css/site.css?v=ZJg29BfKMfPQ1nmIkdqg6iWhTGRNJx2HnD4FfdtVCcU - - - 200 177 text/css 15.2168ms
+2022-06-25 12:07:50.424 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/WebApplication3.styles.css?v=ZGGEhn2MguDBK-5bgdnNVss18nLlfJ3Do8sOMcqDNJo - - - 200 1132 text/css 17.0429ms
+2022-06-25 12:07:50.424 +06:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '\\RYAZENKA\share\MVC_L7\WebApplication3\wwwroot\js\site.js'
+2022-06-25 12:07:50.434 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - - - 200 226 application/javascript 26.5221ms
+2022-06-25 12:07:50.442 +06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '\\RYAZENKA\share\MVC_L7\WebApplication3\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2022-06-25 12:07:50.444 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 37.7194ms
+2022-06-25 12:07:50.445 +06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '\\RYAZENKA\share\MVC_L7\WebApplication3\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2022-06-25 12:07:50.448 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 40.8287ms
+2022-06-25 12:07:50.498 +06:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '\\RYAZENKA\share\MVC_L7\WebApplication3\wwwroot\lib\jquery\dist\jquery.min.js'
+2022-06-25 12:07:50.500 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 93.0811ms
+2022-06-25 12:07:50.517 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/favicon.ico - -
+2022-06-25 12:07:50.526 +06:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '\\RYAZENKA\share\MVC_L7\WebApplication3\wwwroot\favicon.ico'
+2022-06-25 12:07:50.529 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/favicon.ico - - - 200 5430 image/x-icon 11.2736ms
+2022-06-25 12:09:29.231 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-06-25 12:09:29.234 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-25 12:09:29.236 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-06-25 12:09:29.242 +06:00 [INF] Executing ViewResult, running view Products.
+2022-06-25 12:09:29.250 +06:00 [INF] Executed ViewResult - view Products executed in 8.5271ms.
+2022-06-25 12:09:29.251 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 13.4634ms
+2022-06-25 12:09:29.255 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-25 12:09:29.257 +06:00 [INF] HTTP GET /Product/Products responded 200 in 23.5637 ms
+2022-06-25 12:09:29.259 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - text/html;+charset=utf-8 27.6285ms
+2022-06-25 12:10:21.520 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7265/Product/Products application/x-www-form-urlencoded 277
+2022-06-25 12:10:21.522 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-25 12:10:21.533 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products(WebApplication3.Models.ProductModel) on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-06-25 12:10:21.547 +06:00 [INF] Executing ViewResult, running view Products.
+2022-06-25 12:10:21.550 +06:00 [INF] Executed ViewResult - view Products executed in 2.8839ms.
+2022-06-25 12:10:21.552 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 17.3525ms
+2022-06-25 12:10:21.554 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-06-25 12:10:21.555 +06:00 [INF] HTTP POST /Product/Products responded 200 in 34.3870 ms
+2022-06-25 12:10:21.558 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7265/Product/Products application/x-www-form-urlencoded 277 - 200 - text/html;+charset=utf-8 37.7454ms
+2022-06-25 12:10:24.657 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ProductList/ProductList - -
+2022-06-25 12:10:24.658 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-06-25 12:10:24.660 +06:00 [INF] Route matched with {action = "ProductList", controller = "ProductList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductList() on controller WebApplication3.Controllers.ProductListController (WebApplication3).
+2022-06-25 12:10:24.663 +06:00 [INF] Executing ViewResult, running view ProductList.
+2022-06-25 12:10:24.666 +06:00 [INF] Executed ViewResult - view ProductList executed in 3.3348ms.
+2022-06-25 12:10:24.667 +06:00 [INF] Executed action WebApplication3.Controllers.ProductListController.ProductList (WebApplication3) in 5.0373ms
+2022-06-25 12:10:24.669 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-06-25 12:10:24.671 +06:00 [INF] HTTP GET /ProductList/ProductList responded 200 in 12.3339 ms
+2022-06-25 12:10:24.673 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ProductList/ProductList - - - 200 - text/html;+charset=utf-8 16.4858ms
+2022-06-25 12:11:42.774 +06:00 [INF] Application is shutting down...
+2022-06-25 12:11:42.887 +06:00 [INF] Shut down complete

@@ -1,0 +1,442 @@
+2022-07-03 08:40:31.112 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 08:40:31.481 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 08:40:31.482 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 08:40:31.484 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 08:40:31.485 +06:00 [INF] Hosting environment: Development
+2022-07-03 08:40:31.487 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 08:40:33.872 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 08:40:33.893 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 08:40:33.926 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 08:40:33.935 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 08:40:34.056 +06:00 [INF] Executed ViewResult - view Index executed in 122.3485ms.
+2022-07-03 08:40:34.060 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 131.5592ms
+2022-07-03 08:40:34.062 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 08:40:34.065 +06:00 [INF] HTTP GET / responded 200 in 187.2012 ms
+2022-07-03 08:40:34.072 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 200.4131ms
+2022-07-03 08:40:51.917 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 08:40:51.919 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 08:40:51.920 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 08:40:51.922 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 08:40:51.925 +06:00 [INF] Executed ViewResult - view Index executed in 2.6277ms.
+2022-07-03 08:40:51.927 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 4.8842ms
+2022-07-03 08:40:51.929 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 08:40:51.931 +06:00 [INF] HTTP GET / responded 200 in 12.6673 ms
+2022-07-03 08:40:51.934 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 17.1630ms
+2022-07-03 08:40:53.222 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 08:40:53.224 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 08:40:53.224 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 08:40:53.226 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 08:40:53.228 +06:00 [INF] Executed ViewResult - view Index executed in 1.4453ms.
+2022-07-03 08:40:53.229 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 2.9751ms
+2022-07-03 08:40:53.231 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 08:40:53.232 +06:00 [INF] HTTP GET / responded 200 in 8.6749 ms
+2022-07-03 08:40:53.234 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 11.6547ms
+2022-07-03 08:40:53.996 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Home/Privacy - -
+2022-07-03 08:40:53.999 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Privacy (WebApplication3)'
+2022-07-03 08:40:54.001 +06:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 08:40:54.003 +06:00 [INF] Executing ViewResult, running view Privacy.
+2022-07-03 08:40:54.006 +06:00 [INF] Executed ViewResult - view Privacy executed in 2.8459ms.
+2022-07-03 08:40:54.009 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Privacy (WebApplication3) in 6.1279ms
+2022-07-03 08:40:54.010 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Privacy (WebApplication3)'
+2022-07-03 08:40:54.012 +06:00 [INF] HTTP GET /Home/Privacy responded 200 in 14.3966 ms
+2022-07-03 08:40:54.014 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Home/Privacy - - - 200 - text/html;+charset=utf-8 18.1472ms
+2022-07-03 08:40:54.784 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Catalog/Categories - -
+2022-07-03 08:40:54.786 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.CatalogController.Categories (WebApplication3)'
+2022-07-03 08:40:54.789 +06:00 [INF] Route matched with {action = "Categories", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Categories() on controller WebApplication3.Controllers.CatalogController (WebApplication3).
+2022-07-03 08:40:54.792 +06:00 [INF] Executing ViewResult, running view Categories.
+2022-07-03 08:40:54.801 +06:00 [INF] Executed ViewResult - view Categories executed in 9.1075ms.
+2022-07-03 08:40:54.804 +06:00 [INF] Executed action WebApplication3.Controllers.CatalogController.Categories (WebApplication3) in 13.5096ms
+2022-07-03 08:40:54.806 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.CatalogController.Categories (WebApplication3)'
+2022-07-03 08:40:54.807 +06:00 [INF] HTTP GET /Catalog/Categories responded 200 in 21.2884 ms
+2022-07-03 08:40:54.809 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Catalog/Categories - - - 200 - text/html;+charset=utf-8 24.6405ms
+2022-07-03 08:40:55.501 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 08:40:55.503 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 08:40:55.504 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-07-03 08:40:55.508 +06:00 [INF] Executing ViewResult, running view Products.
+2022-07-03 08:40:55.513 +06:00 [INF] Executed ViewResult - view Products executed in 4.662ms.
+2022-07-03 08:40:55.515 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 8.7462ms
+2022-07-03 08:40:55.517 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 08:40:55.518 +06:00 [INF] HTTP GET /Product/Products responded 200 in 15.2711 ms
+2022-07-03 08:40:55.520 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - text/html;+charset=utf-8 19.0541ms
+2022-07-03 09:29:36.788 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 09:29:36.981 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 09:29:36.983 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 09:29:36.985 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 09:29:36.986 +06:00 [INF] Hosting environment: Development
+2022-07-03 09:29:36.988 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 09:29:37.378 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 09:30:04.119 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 09:30:06.873 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 09:30:08.040 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 09:30:08.064 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 09:30:08.072 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 09:30:08.132 +06:00 [INF] Executed ViewResult - view Index executed in 61.4053ms.
+2022-07-03 09:30:08.136 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 69.9256ms
+2022-07-03 09:30:08.138 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 09:45:24.047 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 09:45:24.196 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 09:45:24.197 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 09:45:24.199 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 09:45:24.200 +06:00 [INF] Hosting environment: Development
+2022-07-03 09:45:24.200 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 09:45:24.774 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 09:45:24.794 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 09:45:24.796 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 09:45:24.799 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 09:45:24.824 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 09:45:24.832 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 09:45:24.893 +06:00 [INF] Executed ViewResult - view Index executed in 61.7325ms.
+2022-07-03 09:45:24.897 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 70.4011ms
+2022-07-03 09:45:24.898 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 09:45:24.901 +06:00 [INF] HTTP GET / responded 200 in 122.1884 ms
+2022-07-03 09:45:24.906 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 134.0099ms
+2022-07-03 09:45:49.205 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 09:45:49.374 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 09:45:49.376 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 09:45:49.378 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 09:45:49.379 +06:00 [INF] Hosting environment: Development
+2022-07-03 09:45:49.380 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 09:45:49.760 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 09:45:49.782 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 09:45:49.783 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 09:45:49.787 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 09:45:49.815 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 09:45:49.824 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 09:45:49.885 +06:00 [INF] Executed ViewResult - view Index executed in 63.0827ms.
+2022-07-03 09:45:49.889 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 71.7493ms
+2022-07-03 09:45:49.891 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 09:45:49.894 +06:00 [INF] HTTP GET / responded 200 in 127.6091 ms
+2022-07-03 09:45:49.899 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 141.1749ms
+2022-07-03 09:46:10.839 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 09:46:10.843 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 09:46:10.844 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 09:46:10.844 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 09:46:10.846 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-07-03 09:46:10.851 +06:00 [INF] Executing ViewResult, running view Products.
+2022-07-03 09:46:10.862 +06:00 [INF] Executed ViewResult - view Products executed in 10.6656ms.
+2022-07-03 09:46:10.863 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 14.5835ms
+2022-07-03 09:46:10.865 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 09:46:10.867 +06:00 [INF] HTTP GET /Product/Products responded 200 in 26.4429 ms
+2022-07-03 09:46:10.869 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - text/html;+charset=utf-8 29.7938ms
+2022-07-03 09:47:06.758 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7265/Product/Products application/x-www-form-urlencoded 277
+2022-07-03 09:47:06.763 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 09:47:06.764 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 09:47:06.765 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 09:47:06.774 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products(WebApplication3.Models.ProductModel) on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-07-03 09:47:07.052 +06:00 [INF] Executing ViewResult, running view Products.
+2022-07-03 09:47:07.054 +06:00 [INF] Executed ViewResult - view Products executed in 2.5142ms.
+2022-07-03 09:47:07.056 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 279.9228ms
+2022-07-03 09:47:07.057 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 09:47:07.058 +06:00 [INF] HTTP POST /Product/Products responded 200 in 297.1743 ms
+2022-07-03 09:47:07.060 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7265/Product/Products application/x-www-form-urlencoded 277 - 200 - text/html;+charset=utf-8 303.8773ms
+2022-07-03 09:56:48.787 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 09:56:48.821 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 09:56:48.821 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 09:56:48.822 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 09:56:48.824 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-07-03 09:56:48.825 +06:00 [INF] Executing ViewResult, running view Products.
+2022-07-03 09:56:48.827 +06:00 [INF] Executed ViewResult - view Products executed in 2.0005ms.
+2022-07-03 09:56:48.829 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 3.4761ms
+2022-07-03 09:56:48.831 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 09:56:48.832 +06:00 [INF] HTTP GET /Product/Products responded 200 in 12.7083 ms
+2022-07-03 09:56:48.836 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - text/html;+charset=utf-8 49.5228ms
+2022-07-03 09:56:55.565 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 09:56:55.567 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 09:56:55.568 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 09:56:55.569 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 09:56:55.570 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 09:56:55.572 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 09:56:55.573 +06:00 [INF] Executed ViewResult - view Index executed in 1.4865ms.
+2022-07-03 09:56:55.575 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 3.1277ms
+2022-07-03 09:56:55.577 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 09:56:55.578 +06:00 [INF] HTTP GET / responded 200 in 12.0351 ms
+2022-07-03 09:56:55.580 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 15.4582ms
+2022-07-03 09:56:58.382 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 09:56:58.384 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 09:56:58.385 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 09:56:58.386 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 09:56:58.387 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-07-03 09:56:58.388 +06:00 [INF] Executing ViewResult, running view Products.
+2022-07-03 09:56:58.390 +06:00 [INF] Executed ViewResult - view Products executed in 1.4265ms.
+2022-07-03 09:56:58.391 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 2.892ms
+2022-07-03 09:56:58.394 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 09:56:58.395 +06:00 [INF] HTTP GET /Product/Products responded 200 in 12.3788 ms
+2022-07-03 09:56:58.397 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - text/html;+charset=utf-8 15.7202ms
+2022-07-03 10:10:30.099 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ProductList/ProductList - -
+2022-07-03 10:10:30.104 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 10:10:30.106 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 10:10:30.107 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-07-03 10:10:30.109 +06:00 [INF] Route matched with {action = "ProductList", controller = "ProductList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductList() on controller WebApplication3.Controllers.ProductListController (WebApplication3).
+2022-07-03 10:10:30.112 +06:00 [INF] Executing ViewResult, running view ProductList.
+2022-07-03 10:10:30.115 +06:00 [INF] Executed ViewResult - view ProductList executed in 3.8465ms.
+2022-07-03 10:10:30.117 +06:00 [INF] Executed action WebApplication3.Controllers.ProductListController.ProductList (WebApplication3) in 5.7902ms
+2022-07-03 10:10:30.119 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductListController.ProductList (WebApplication3)'
+2022-07-03 10:10:30.120 +06:00 [INF] HTTP GET /ProductList/ProductList responded 200 in 16.2924 ms
+2022-07-03 10:10:30.123 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ProductList/ProductList - - - 200 - text/html;+charset=utf-8 23.8248ms
+2022-07-03 10:13:10.685 +06:00 [FTL] Unhandled exception
+System.InvalidOperationException: Failure to infer one or more parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+app                 | Body (Inferred)
+content             | UNKNOWN        
+next                | UNKNOWN        
+
+
+Did you mean to register the "UNKNOWN" parameters as a Service?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateTargetableRequestDelegate(MethodInfo methodInfo, Expression targetExpression, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Create(Delegate handler, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(IEndpointRouteBuilder endpoints, RoutePattern pattern, Delegate handler, Boolean disableInferBodyFromParameters)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(IEndpointRouteBuilder endpoints, String pattern, Delegate handler)
+   at Program.<Main>$(String[] args) in C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\Program.cs:line 92
+2022-07-03 10:13:12.136 +06:00 [INF] Shut down complete
+2022-07-03 10:15:12.641 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 10:15:12.788 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 10:15:12.789 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 10:15:12.791 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 10:15:12.792 +06:00 [INF] Hosting environment: Development
+2022-07-03 10:15:12.793 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 10:15:17.121 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 10:15:17.140 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 10:15:17.141 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 10:15:17.146 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 10:15:17.170 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 10:15:17.178 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 10:15:17.236 +06:00 [INF] Executed ViewResult - view Index executed in 59.8417ms.
+2022-07-03 10:15:17.240 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 68.0567ms
+2022-07-03 10:15:17.242 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 10:15:17.245 +06:00 [INF] HTTP GET / responded 200 in 118.4824 ms
+2022-07-03 10:15:17.250 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 130.5878ms
+2022-07-03 10:16:08.829 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 10:16:08.832 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 10:16:08.833 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 10:16:08.833 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 10:16:08.837 +06:00 [INF] Route matched with {action = "Products", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller WebApplication3.Controllers.ProductController (WebApplication3).
+2022-07-03 10:16:08.841 +06:00 [INF] Executing ViewResult, running view Products.
+2022-07-03 10:16:08.850 +06:00 [INF] Executed ViewResult - view Products executed in 9.0597ms.
+2022-07-03 10:16:08.853 +06:00 [INF] Executed action WebApplication3.Controllers.ProductController.Products (WebApplication3) in 13.7266ms
+2022-07-03 10:16:08.855 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.ProductController.Products (WebApplication3)'
+2022-07-03 10:16:08.856 +06:00 [INF] HTTP GET /Product/Products responded 200 in 26.2997 ms
+2022-07-03 10:16:08.858 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - text/html;+charset=utf-8 31.5634ms
+2022-07-03 10:28:09.807 +06:00 [FTL] Unhandled exception
+System.InvalidOperationException: Failure to infer one or more parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+app                 | Body (Inferred)
+next                | UNKNOWN        
+
+
+Did you mean to register the "UNKNOWN" parameters as a Service?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateTargetableRequestDelegate(MethodInfo methodInfo, Expression targetExpression, FactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Create(Delegate handler, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(IEndpointRouteBuilder endpoints, RoutePattern pattern, Delegate handler, Boolean disableInferBodyFromParameters)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.Map(IEndpointRouteBuilder endpoints, String pattern, Delegate handler)
+   at Program.<Main>$(String[] args) in C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\Program.cs:line 77
+2022-07-03 10:28:10.833 +06:00 [INF] Shut down complete
+2022-07-03 10:45:43.220 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 10:45:43.373 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 10:45:43.374 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 10:45:43.376 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 10:45:43.377 +06:00 [INF] Hosting environment: Development
+2022-07-03 10:45:43.379 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 10:46:23.457 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 10:46:23.619 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 10:46:23.620 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 10:46:23.622 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 10:46:23.623 +06:00 [INF] Hosting environment: Development
+2022-07-03 10:46:23.624 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 10:46:23.861 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 10:46:23.880 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 10:46:23.881 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 10:46:23.884 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 10:46:23.909 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 10:46:23.919 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 10:46:23.983 +06:00 [INF] Executed ViewResult - view Index executed in 66.5191ms.
+2022-07-03 10:46:23.987 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 74.6044ms
+2022-07-03 10:46:23.989 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 10:46:23.992 +06:00 [INF] HTTP GET / responded 200 in 125.6710 ms
+2022-07-03 10:46:23.999 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 138.9816ms
+2022-07-03 10:47:27.554 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 10:47:27.558 +06:00 [INF] HTTP GET /Product/Products responded 200 in 2.1825 ms
+2022-07-03 10:47:27.560 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - - 6.3592ms
+2022-07-03 10:49:34.480 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 10:49:34.637 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 10:49:34.638 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 10:49:34.640 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 10:49:34.640 +06:00 [INF] Hosting environment: Development
+2022-07-03 10:49:34.642 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 10:49:34.729 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 10:49:34.749 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 10:49:34.749 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 10:49:34.752 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 10:49:34.777 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 10:49:34.785 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 10:49:34.844 +06:00 [INF] Executed ViewResult - view Index executed in 60.9846ms.
+2022-07-03 10:49:34.849 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 69.2002ms
+2022-07-03 10:49:34.850 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 10:49:34.853 +06:00 [INF] HTTP GET / responded 200 in 119.2728 ms
+2022-07-03 10:49:34.858 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 130.9717ms
+2022-07-03 10:49:43.450 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 10:49:43.455 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.DefaultHttpRequest
+2022-07-03 10:49:43.456 +06:00 [INF] Ответ: Microsoft.AspNetCore.Http.DefaultHttpResponse
+2022-07-03 10:49:43.457 +06:00 [INF] HTTP GET /Product/Products responded 200 in 4.7222 ms
+2022-07-03 10:49:43.460 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - - 9.4366ms
+2022-07-03 10:54:05.906 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 10:54:06.050 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 10:54:06.051 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 10:54:06.053 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 10:54:06.054 +06:00 [INF] Hosting environment: Development
+2022-07-03 10:54:06.055 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 10:54:06.586 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 10:54:06.615 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.QueryCollection
+2022-07-03 10:54:06.617 +06:00 [INF] Ответ: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+2022-07-03 10:54:06.620 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 10:54:06.649 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 10:54:06.660 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 10:54:06.715 +06:00 [INF] Executed ViewResult - view Index executed in 56.72ms.
+2022-07-03 10:54:06.719 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 65.7829ms
+2022-07-03 10:54:06.721 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 10:54:06.723 +06:00 [INF] HTTP GET / responded 200 in 132.6118 ms
+2022-07-03 10:54:06.727 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 143.0935ms
+2022-07-03 10:54:11.694 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 10:54:11.698 +06:00 [INF] Запрос: Microsoft.AspNetCore.Http.QueryCollection
+2022-07-03 10:54:11.699 +06:00 [INF] Ответ: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+2022-07-03 10:54:11.700 +06:00 [INF] HTTP GET /Product/Products responded 200 in 5.0942 ms
+2022-07-03 10:54:11.703 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 - - 9.7335ms
+2022-07-03 11:01:34.834 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 11:01:35.000 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 11:01:35.002 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 11:01:35.004 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 11:01:35.004 +06:00 [INF] Hosting environment: Development
+2022-07-03 11:01:35.006 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 11:01:35.506 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 11:01:35.529 +06:00 [INF] Запрос: 
+2022-07-03 11:01:35.530 +06:00 [INF] Ответ: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+2022-07-03 11:01:35.533 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 11:01:35.560 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 11:01:35.570 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 11:01:35.636 +06:00 [INF] Executed ViewResult - view Index executed in 68.1851ms.
+2022-07-03 11:01:35.639 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 76.5003ms
+2022-07-03 11:01:35.641 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 11:01:35.644 +06:00 [INF] HTTP GET / responded 200 in 130.9364 ms
+2022-07-03 11:01:35.650 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 146.2889ms
+2022-07-03 11:01:53.469 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 11:01:53.472 +06:00 [INF] Запрос: 
+2022-07-03 11:01:53.473 +06:00 [INF] Ответ: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+2022-07-03 11:01:53.475 +06:00 [INF] HTTP GET /Product/Products responded 200 in 4.6164 ms
+2022-07-03 11:01:53.478 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 0 - 9.3947ms
+2022-07-03 11:43:25.470 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 11:43:25.635 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 11:43:25.636 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 11:43:25.638 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 11:43:25.639 +06:00 [INF] Hosting environment: Development
+2022-07-03 11:43:25.640 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 11:43:26.100 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 11:43:26.122 +06:00 [INF] Запрос: 
+2022-07-03 11:43:26.123 +06:00 [INF] Ответ: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+2022-07-03 11:43:26.126 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 11:43:26.151 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 11:43:26.161 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 11:43:26.223 +06:00 [INF] Executed ViewResult - view Index executed in 64.5807ms.
+2022-07-03 11:43:26.227 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 73.3982ms
+2022-07-03 11:43:26.229 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 11:43:26.232 +06:00 [INF] HTTP GET / responded 200 in 126.9979 ms
+2022-07-03 11:43:26.238 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 139.5923ms
+2022-07-03 11:43:27.995 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 11:43:27.999 +06:00 [INF] Запрос: 
+2022-07-03 11:43:28.000 +06:00 [INF] Ответ: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+2022-07-03 11:43:28.001 +06:00 [INF] HTTP GET /Product/Products responded 200 in 4.4536 ms
+2022-07-03 11:43:28.003 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 0 - 8.1060ms
+2022-07-03 12:17:00.206 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 12:17:00.431 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 12:17:00.433 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 12:17:00.434 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 12:17:00.436 +06:00 [INF] Hosting environment: Development
+2022-07-03 12:17:00.437 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 12:17:14.720 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 12:17:14.741 +06:00 [INF] Запрос: 
+2022-07-03 12:17:14.744 +06:00 [INF] Ответ: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+2022-07-03 12:17:14.748 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 12:17:14.784 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 12:17:14.794 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 12:17:14.865 +06:00 [INF] Executed ViewResult - view Index executed in 73.7175ms.
+2022-07-03 12:17:14.870 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 82.826ms
+2022-07-03 12:17:14.872 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 12:17:14.875 +06:00 [INF] HTTP GET / responded 200 in 149.2168 ms
+2022-07-03 12:17:14.881 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 162.8336ms
+2022-07-03 13:06:17.455 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 13:06:17.606 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 13:06:17.607 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 13:06:17.609 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 13:06:17.610 +06:00 [INF] Hosting environment: Development
+2022-07-03 13:06:17.611 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 13:06:20.636 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 13:06:20.655 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 13:06:20.681 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 13:06:20.690 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 13:06:20.751 +06:00 [INF] Executed ViewResult - view Index executed in 62.3584ms.
+2022-07-03 13:06:20.755 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 71.4432ms
+2022-07-03 13:06:20.759 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 13:06:20.762 +06:00 [INF] HTTP GET / responded 200 in 120.9202 ms
+2022-07-03 13:06:20.770 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 135.0222ms
+2022-07-03 13:06:52.815 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/Product/Products - -
+2022-07-03 13:06:52.820 +06:00 [INF] Запрос: 
+2022-07-03 13:06:52.822 +06:00 [INF] Ответ: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+2022-07-03 13:06:52.823 +06:00 [INF] HTTP GET /Product/Products responded 200 in 6.3853 ms
+2022-07-03 13:06:52.826 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/Product/Products - - - 200 0 - 10.9322ms
+2022-07-03 13:07:35.389 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 13:07:35.556 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 13:07:35.558 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 13:07:35.560 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 13:07:35.561 +06:00 [INF] Hosting environment: Development
+2022-07-03 13:07:35.562 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 13:07:36.501 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 13:07:36.521 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 13:07:36.548 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 13:07:36.557 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 13:07:36.614 +06:00 [INF] Executed ViewResult - view Index executed in 58.5936ms.
+2022-07-03 13:07:36.618 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 67.2174ms
+2022-07-03 13:07:36.620 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 13:07:36.623 +06:00 [INF] HTTP GET / responded 200 in 117.2548 ms
+2022-07-03 13:07:36.631 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 131.0270ms
+2022-07-03 13:09:24.845 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 13:09:24.998 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 13:09:25.000 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 13:09:25.002 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 13:09:25.003 +06:00 [INF] Hosting environment: Development
+2022-07-03 13:09:25.005 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 13:09:25.418 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 13:09:25.438 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 13:09:25.464 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 13:09:25.474 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 13:09:25.535 +06:00 [INF] Executed ViewResult - view Index executed in 62.1831ms.
+2022-07-03 13:09:25.539 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 71.2288ms
+2022-07-03 13:09:25.541 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 13:09:25.544 +06:00 [INF] HTTP GET / responded 200 in 120.4166 ms
+2022-07-03 13:09:25.549 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 132.4634ms
+2022-07-03 13:10:23.583 +06:00 [INF] User profile is available. Using 'C:\Users\Dok\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 13:10:23.755 +06:00 [INF] Now listening on: https://localhost:7265
+2022-07-03 13:10:23.757 +06:00 [INF] Now listening on: http://localhost:5265
+2022-07-03 13:10:23.758 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 13:10:23.759 +06:00 [INF] Hosting environment: Development
+2022-07-03 13:10:23.761 +06:00 [INF] Content root path: C:\Users\Dok\source\repos\MVC_1\Lesson9\WebApplication3\
+2022-07-03 13:10:23.828 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7265/ - -
+2022-07-03 13:10:23.850 +06:00 [INF] Запрос: 
+2022-07-03 13:10:23.852 +06:00 [INF] Ответ: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream
+2022-07-03 13:10:23.855 +06:00 [INF] Executing endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 13:10:23.878 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.HomeController (WebApplication3).
+2022-07-03 13:10:23.888 +06:00 [INF] Executing ViewResult, running view Index.
+2022-07-03 13:10:23.944 +06:00 [INF] Executed ViewResult - view Index executed in 58.086ms.
+2022-07-03 13:10:23.949 +06:00 [INF] Executed action WebApplication3.Controllers.HomeController.Index (WebApplication3) in 67.6454ms
+2022-07-03 13:10:23.953 +06:00 [INF] Executed endpoint 'WebApplication3.Controllers.HomeController.Index (WebApplication3)'
+2022-07-03 13:10:23.957 +06:00 [INF] HTTP GET / responded 200 in 123.1611 ms
+2022-07-03 13:10:23.963 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7265/ - - - 200 - text/html;+charset=utf-8 135.9985ms
