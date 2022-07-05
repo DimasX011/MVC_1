@@ -1,0 +1,19 @@
+﻿@namespace Views.Metrics
+
+@model SiteStatistic 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Рейтинг популярности страниц</title>
+</head>
+<body>
+<div>
+    <p>Количество посещений домашней страницы - @Model._HomeCount</p>
+    <p>Количество посещений cтраницы добавления товара - @Model._ProductCount</p>
+    <p>Количество посещений cтраницы удаления товара - @Model._DeleteCount</p>
+    <p>Количество посещений cтраницы просмотра товаров - @Model._ListCountView</p>
+    <p>Количество посещений cтраницы условий лицензионного соглашения - @Model._PrivacyCount </p>
+    <p>Количество посещений cтраницы добавления каталога - @Model._CatalogView</p>
+</div>
+</body>
+</html>

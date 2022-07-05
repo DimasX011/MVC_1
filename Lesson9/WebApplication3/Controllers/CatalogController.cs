@@ -19,8 +19,6 @@ namespace WebApplication3.Controllers
         {
             _catalog.GetCategories.Add(model);
             return View(_catalog);
-         
-
         }
     }
 }
