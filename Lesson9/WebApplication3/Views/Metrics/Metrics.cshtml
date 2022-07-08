@@ -1,6 +1,7 @@
 ﻿@namespace Views.Metrics
+@using WebApplication3.Services
 
-@model SiteStatistic 
+@model TreadSafeCollection
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,12 +9,10 @@
 </head>
 <body>
 <div>
-    <p>Количество посещений домашней страницы - @Model._HomeCount</p>
-    <p>Количество посещений cтраницы добавления товара - @Model._ProductCount</p>
-    <p>Количество посещений cтраницы удаления товара - @Model._DeleteCount</p>
-    <p>Количество посещений cтраницы просмотра товаров - @Model._ListCountView</p>
-    <p>Количество посещений cтраницы условий лицензионного соглашения - @Model._PrivacyCount </p>
-    <p>Количество посещений cтраницы добавления каталога - @Model._CatalogView</p>
+   @foreach (var type in @Model.GetMetrics())
+   {
+       <div>Адрес @type.Key - количество обращений @type.Value </div>
+   }
 </div>
 </body>
 </html>
