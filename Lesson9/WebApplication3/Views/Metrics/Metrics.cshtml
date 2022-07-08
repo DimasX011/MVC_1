@@ -1,0 +1,18 @@
+﻿@namespace Views.Metrics
+@using WebApplication3.Services
+
+@model TreadSafeCollection
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Рейтинг популярности страниц</title>
+</head>
+<body>
+<div>
+   @foreach (var type in @Model.GetMetrics())
+   {
+       <div>Адрес @type.Key - количество обращений @type.Value </div>
+   }
+</div>
+</body>
+</html>

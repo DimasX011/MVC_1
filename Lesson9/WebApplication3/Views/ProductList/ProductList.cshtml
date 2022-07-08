@@ -1,0 +1,16 @@
+﻿@namespace Views.ProductList
+@using WebApplication3.Services
+@model IReadOnlyCollection<ProductModel> 
+
+@{
+    ViewData["Title"] = "Добавление продуктов";
+}
+
+@{
+   <p>Количество продуктов - @ProductCatalogService.products.Count</p>
+}
+
+@foreach (var type in ProductCatalogService.products)
+{
+    <div> @type.Id  @type.Name  @type.Description @type.Type </div>
+}

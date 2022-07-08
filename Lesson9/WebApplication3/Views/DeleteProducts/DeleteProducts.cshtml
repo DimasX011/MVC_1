@@ -1,0 +1,13 @@
+﻿@namespace Views.DeleteProducts
+
+@model IReadOnlyCollection<ProductModel>
+
+@{
+    ViewData["Title"] = "Удаление продуктов";
+}
+
+
+<form method="post">
+    Id: <input type="text" name="id" required />
+    <input type="submit" name="submit" value="Удалить" />
+</form>
